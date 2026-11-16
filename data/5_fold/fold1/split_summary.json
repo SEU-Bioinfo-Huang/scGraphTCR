@@ -1,0 +1,137 @@
+{
+  "protocol": "group5_cv",
+  "fold": "1fold",
+  "data_fold": "fold1",
+  "outer_test_definition": "raw_cdr3b_strict",
+  "donor_used_for_splitting": false,
+  "donor_used_for_stratification": true,
+  "donor_stratification_target": "donor_and_label",
+  "inner_validation_grouped_by_beta_component": true,
+  "inner_validation_grouped_by_raw_cdr3b": true,
+  "train_val_group_overlap": 0,
+  "train_test_group_overlap": 0,
+  "val_test_group_overlap": 0,
+  "train_val_raw_cdr3b_overlap": 0,
+  "train_test_raw_cdr3b_overlap": 0,
+  "val_test_raw_cdr3b_overlap": 0,
+  "train": {
+    "n_edges": 22935,
+    "n_positive": 3915,
+    "n_negative": 19020,
+    "positive_fraction": 0.17069980379332897,
+    "n_instances": 8630,
+    "n_peptides": 45,
+    "n_beta_components": 3872,
+    "donors": [
+      "donor1",
+      "donor2",
+      "donor3",
+      "donor4"
+    ],
+    "n_donors": 4,
+    "donor_edge_counts": {
+      "donor1": 9510,
+      "donor2": 5079,
+      "donor3": 2877,
+      "donor4": 5469
+    },
+    "donor_positive_counts": {
+      "donor1": 1620,
+      "donor2": 921,
+      "donor3": 464,
+      "donor4": 910
+    },
+    "donor_negative_counts": {
+      "donor1": 7890,
+      "donor2": 4158,
+      "donor3": 2413,
+      "donor4": 4559
+    },
+    "donor_positive_fractions": {
+      "donor1": 0.17034700315457413,
+      "donor2": 0.1813349084465446,
+      "donor3": 0.16127911018421967,
+      "donor4": 0.1663923934905833
+    }
+  },
+  "val": {
+    "n_edges": 6796,
+    "n_positive": 1031,
+    "n_negative": 5765,
+    "positive_fraction": 0.15170688640376692,
+    "n_instances": 3087,
+    "n_peptides": 45,
+    "n_beta_components": 976,
+    "donors": [
+      "donor1",
+      "donor2",
+      "donor3",
+      "donor4"
+    ],
+    "n_donors": 4,
+    "donor_edge_counts": {
+      "donor1": 3135,
+      "donor2": 1506,
+      "donor3": 705,
+      "donor4": 1450
+    },
+    "donor_positive_counts": {
+      "donor1": 391,
+      "donor2": 276,
+      "donor3": 121,
+      "donor4": 243
+    },
+    "donor_negative_counts": {
+      "donor1": 2744,
+      "donor2": 1230,
+      "donor3": 584,
+      "donor4": 1207
+    },
+    "donor_positive_fractions": {
+      "donor1": 0.12472089314194577,
+      "donor2": 0.18326693227091634,
+      "donor3": 0.17163120567375886,
+      "donor4": 0.16758620689655174
+    }
+  },
+  "test": {
+    "n_edges": 7553,
+    "n_positive": 1268,
+    "n_negative": 6285,
+    "positive_fraction": 0.16788031245862572,
+    "n_instances": 3202,
+    "n_peptides": 45,
+    "n_beta_components": 1205,
+    "donors": [
+      "donor1",
+      "donor2",
+      "donor3",
+      "donor4"
+    ],
+    "n_donors": 4,
+    "donor_edge_counts": {
+      "donor1": 2907,
+      "donor2": 2277,
+      "donor3": 630,
+      "donor4": 1739
+    },
+    "donor_positive_counts": {
+      "donor1": 581,
+      "donor2": 280,
+      "donor3": 117,
+      "donor4": 290
+    },
+    "donor_negative_counts": {
+      "donor1": 2326,
+      "donor2": 1997,
+      "donor3": 513,
+      "donor4": 1449
+    },
+    "donor_positive_fractions": {
+      "donor1": 0.1998624011007912,
+      "donor2": 0.12296881862099253,
+      "donor3": 0.18571428571428572,
+      "donor4": 0.16676250718803912
+    }
+  }
+}
